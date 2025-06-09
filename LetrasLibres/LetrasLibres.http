@@ -1,0 +1,6 @@
+@LetrasLibres_HostAddress = http://localhost:5217
+
+GET {{LetrasLibres_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

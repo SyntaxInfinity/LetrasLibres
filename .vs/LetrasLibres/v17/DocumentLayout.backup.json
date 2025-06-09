@@ -1,0 +1,229 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|c:\\users\\jorda\\downloads\\dotnet\\letraslibres\\letraslibres\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|solutionrelative:letraslibres\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|c:\\users\\jorda\\downloads\\dotnet\\letraslibres\\letraslibres\\models\\entities\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|solutionrelative:letraslibres\\models\\entities\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|c:\\users\\jorda\\downloads\\dotnet\\letraslibres\\letraslibres\\controllers\\prestamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|solutionrelative:letraslibres\\controllers\\prestamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|c:\\users\\jorda\\downloads\\dotnet\\letraslibres\\letraslibres\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|solutionrelative:letraslibres\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|c:\\users\\jorda\\downloads\\dotnet\\letraslibres\\letraslibres\\migrations\\bibliotecadbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|solutionrelative:letraslibres\\migrations\\bibliotecadbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|c:\\users\\jorda\\downloads\\dotnet\\letraslibres\\letraslibres\\models\\entities\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|solutionrelative:letraslibres\\models\\entities\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|c:\\users\\jorda\\downloads\\dotnet\\letraslibres\\letraslibres\\models\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|solutionrelative:letraslibres\\models\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|c:\\users\\jorda\\downloads\\dotnet\\letraslibres\\letraslibres\\migrations\\20250608040110_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|solutionrelative:letraslibres\\migrations\\20250608040110_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|c:\\users\\jorda\\downloads\\dotnet\\letraslibres\\letraslibres\\data\\bibliotecadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|solutionrelative:letraslibres\\data\\bibliotecadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|c:\\users\\jorda\\downloads\\dotnet\\letraslibres\\letraslibres\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|solutionrelative:letraslibres\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|c:\\users\\jorda\\downloads\\dotnet\\letraslibres\\letraslibres\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|solutionrelative:letraslibres\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|c:\\users\\jorda\\downloads\\dotnet\\letraslibres\\letraslibres\\letraslibres.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|solutionrelative:letraslibres\\letraslibres.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|c:\\users\\jorda\\downloads\\dotnet\\letraslibres\\letraslibres\\migrations\\20250608215448_segunda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B5D92E-100A-47A1-B5E9-D4FCA33ED6E3}|LetrasLibres\\LetrasLibres.csproj|solutionrelative:letraslibres\\migrations\\20250608215448_segunda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibroController.cs",
+              "DocumentMoniker": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Controllers\\LibroController.cs",
+              "RelativeDocumentMoniker": "LetrasLibres\\Controllers\\LibroController.cs",
+              "ToolTip": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Controllers\\LibroController.cs",
+              "RelativeToolTip": "LetrasLibres\\Controllers\\LibroController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T18:46:45.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Models\\Entities\\Libro.cs",
+              "RelativeDocumentMoniker": "LetrasLibres\\Models\\Entities\\Libro.cs",
+              "ToolTip": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Models\\Entities\\Libro.cs",
+              "RelativeToolTip": "LetrasLibres\\Models\\Entities\\Libro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T18:29:00.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrestamoController.cs",
+              "DocumentMoniker": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Controllers\\PrestamoController.cs",
+              "RelativeDocumentMoniker": "LetrasLibres\\Controllers\\PrestamoController.cs",
+              "ToolTip": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Controllers\\PrestamoController.cs",
+              "RelativeToolTip": "LetrasLibres\\Controllers\\PrestamoController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T02:17:12.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Prestamo.cs",
+              "DocumentMoniker": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Models\\Entities\\Prestamo.cs",
+              "RelativeDocumentMoniker": "LetrasLibres\\Models\\Entities\\Prestamo.cs",
+              "ToolTip": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Models\\Entities\\Prestamo.cs",
+              "RelativeToolTip": "LetrasLibres\\Models\\Entities\\Prestamo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T23:37:12.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Models\\Entities\\Usuario.cs",
+              "RelativeDocumentMoniker": "LetrasLibres\\Models\\Entities\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Models\\Entities\\Usuario.cs",
+              "RelativeToolTip": "LetrasLibres\\Models\\Entities\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T23:36:54.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BibliotecaDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Migrations\\BibliotecaDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "LetrasLibres\\Migrations\\BibliotecaDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Migrations\\BibliotecaDbContextModelSnapshot.cs",
+              "RelativeToolTip": "LetrasLibres\\Migrations\\BibliotecaDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T21:44:44.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "LetrasLibres\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "LetrasLibres\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T01:42:17.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BibliotecaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Data\\BibliotecaDbContext.cs",
+              "RelativeDocumentMoniker": "LetrasLibres\\Data\\BibliotecaDbContext.cs",
+              "ToolTip": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Data\\BibliotecaDbContext.cs",
+              "RelativeToolTip": "LetrasLibres\\Data\\BibliotecaDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T00:00:34.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250608215448_Segunda.cs",
+              "DocumentMoniker": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Migrations\\20250608215448_Segunda.cs",
+              "RelativeDocumentMoniker": "LetrasLibres\\Migrations\\20250608215448_Segunda.cs",
+              "ToolTip": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Migrations\\20250608215448_Segunda.cs",
+              "RelativeToolTip": "LetrasLibres\\Migrations\\20250608215448_Segunda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T21:54:48.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250608040110_Inicial.cs",
+              "DocumentMoniker": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Migrations\\20250608040110_Inicial.cs",
+              "RelativeDocumentMoniker": "LetrasLibres\\Migrations\\20250608040110_Inicial.cs",
+              "ToolTip": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Migrations\\20250608040110_Inicial.cs",
+              "RelativeToolTip": "LetrasLibres\\Migrations\\20250608040110_Inicial.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T04:01:10.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\appsettings.json",
+              "RelativeDocumentMoniker": "LetrasLibres\\appsettings.json",
+              "ToolTip": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\appsettings.json",
+              "RelativeToolTip": "LetrasLibres\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-08T00:04:26.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Program.cs",
+              "RelativeDocumentMoniker": "LetrasLibres\\Program.cs",
+              "ToolTip": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\Program.cs",
+              "RelativeToolTip": "LetrasLibres\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T02:24:51.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LetrasLibres.csproj",
+              "DocumentMoniker": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\LetrasLibres.csproj",
+              "RelativeDocumentMoniker": "LetrasLibres\\LetrasLibres.csproj",
+              "ToolTip": "C:\\Users\\Jorda\\Downloads\\dotnet\\LetrasLibres\\LetrasLibres\\LetrasLibres.csproj",
+              "RelativeToolTip": "LetrasLibres\\LetrasLibres.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-06T18:24:54.984Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
