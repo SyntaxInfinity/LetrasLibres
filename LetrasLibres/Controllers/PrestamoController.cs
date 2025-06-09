@@ -16,13 +16,16 @@ namespace LetrasLibres.Controllers
         {
             this.dbcontext = dbcontext;
         }
+
+        //Lista de prestamos
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Prestamo>>> GetPrestamos()
         {
-            var prestamos = await dbcontext.prestamo.ToListAsync();
+            var prestamos = await dbcontext.Prestamo.ToListAsync();
             return Ok(prestamos);
         }
 
+        //Registrar un nuevo préstamo (libro → usuario).
         [HttpPost]
         public async Task<ActionResult> PostCrearPrestamo([FromBody] Prestamo prestamo)
         {
@@ -31,25 +34,27 @@ namespace LetrasLibres.Controllers
                 return BadRequest("Faltan datos requeridos: LibroId, UsuarioId y FechaPrestamo son obligatorios.");
             }
             prestamo.Id = Guid.NewGuid();
-            prestamo.estado = "Activo";
+            prestamo.estado = "Prestado";
             prestamo.FechaDevolucion = null;
-            dbcontext.prestamo.Add(prestamo);
+            dbcontext.Prestamo.Add(prestamo);
             await dbcontext.SaveChangesAsync();
             return CreatedAtAction(nameof(PostCrearPrestamo), new { id = prestamo.Id }, prestamo);
         }
+
+        //Registrar la devolución de un libro.
         [HttpPost("{id}")]
         public async Task<ActionResult> PostDevolverPrestamo(Guid id)
         {
-            var prestamo = await dbcontext.prestamo.FindAsync(id);
+            var prestamo = await dbcontext.Prestamo.FindAsync(id);
             if (prestamo == null)
             {
                 return NotFound();
             }
             prestamo.FechaDevolucion = DateTime.Now;
             prestamo.estado = "Devuelto";
-            dbcontext.prestamo.Update(prestamo);
+            dbcontext.Prestamo.Update(prestamo);
             await dbcontext.SaveChangesAsync();
-            return NoContent();
+            return Ok(new { mensaje = $"El libro fue devuelto exitosamente"});
         }
     }
 }

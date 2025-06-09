@@ -7,5 +7,6 @@
         public required string apellido { get; set; }
         public required string rut {  get; set; }
         public required string celular { get; set; }
+        public ICollection<Prestamo> Prestamo { get; set; }
     }
 }

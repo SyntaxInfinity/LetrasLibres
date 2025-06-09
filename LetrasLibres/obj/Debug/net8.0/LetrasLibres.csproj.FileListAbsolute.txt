@@ -516,3 +516,4 @@ C:\Users\Jorda\Downloads\dotnet\LetrasLibres - copia\LetrasLibres\obj\Debug\net8
 C:\Users\Jorda\Downloads\dotnet\LetrasLibres - copia\LetrasLibres\obj\Debug\net8.0\LetrasLibres.pdb
 C:\Users\Jorda\Downloads\dotnet\LetrasLibres - copia\LetrasLibres\obj\Debug\net8.0\LetrasLibres.genruntimeconfig.cache
 C:\Users\Jorda\Downloads\dotnet\LetrasLibres - copia\LetrasLibres\obj\Debug\net8.0\ref\LetrasLibres.dll
+C:\Users\PC\Desktop\net\LetrasLibres\LetrasLibres\obj\Debug\net8.0\LetrasLibres.sourcelink.json

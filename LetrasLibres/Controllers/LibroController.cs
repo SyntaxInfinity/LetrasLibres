@@ -22,7 +22,7 @@ namespace LetrasLibres.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Libro>>> GetLibros()
         {
-            var libros = await dbcontext.libros.ToListAsync();
+            var libros = await dbcontext.Libros.ToListAsync();
             return Ok(libros);
         }
 
@@ -30,7 +30,7 @@ namespace LetrasLibres.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Libro>> GetLibrosId(Guid id)
         {
-            var libro = await dbcontext.libros.FindAsync(id);
+            var libro = await dbcontext.Libros.FindAsync(id);
             if (libro == null)
             {
                 return NotFound();
@@ -38,7 +38,7 @@ namespace LetrasLibres.Controllers
             return Ok(libro);
         }
 
-
+        //Crea un nuevo libro.
         [HttpPost]
         public async Task<ActionResult<Libro>> PostCrearLibro([FromBody] Libro libro)
         {
@@ -66,13 +66,13 @@ namespace LetrasLibres.Controllers
             }
 
             libro.Id = Guid.NewGuid();
-            dbcontext.libros.Add(libro);
+            dbcontext.Libros.Add(libro);
             await dbcontext.SaveChangesAsync();
 
             return CreatedAtAction(nameof(GetLibrosId), new { id = libro.Id }, libro);
         }
 
-
+        //Edita la información de un libro.
         [HttpPut("{id}")]
         public async Task<IActionResult> PutActualizarLibro(Guid id, [FromBody] Libro libro)
         {
@@ -81,7 +81,7 @@ namespace LetrasLibres.Controllers
                 return BadRequest("El ID en la URL no coincide con el ID del cuerpo.");
             }
 
-            var libroExistente = await dbcontext.libros.FindAsync(id);
+            var libroExistente = await dbcontext.Libros.FindAsync(id);
             if (libroExistente == null)
             {
                 return NotFound($"No se encontró un libro con ID: {id}");
@@ -102,6 +102,7 @@ namespace LetrasLibres.Controllers
                 return BadRequest("La fecha de publicación no puede ser una fecha futura.");
             }
 
+            //cambia valor por valor para modificar
             libroExistente.Titulo = libro.Titulo;
             libroExistente.Publicacion = libro.Publicacion;
             libroExistente.Autor = libro.Autor;
@@ -113,24 +114,24 @@ namespace LetrasLibres.Controllers
         }
 
 
-
+        //Elimina un libro (solo si no está prestado).
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteLibro(Guid id)
         {
-            var libro = await dbcontext.libros.FindAsync(id);
+            var libro = await dbcontext.Libros.FindAsync(id);
             if(libro == null)
             {
                 return NotFound($"No se encontró el libro con el id {id}");
             }
-            var prestamoActivo = await dbcontext.prestamo.AnyAsync(p => p.LibroId == id && p.FechaDevolucion == null);
+            var prestamoActivo = await dbcontext.Prestamo.AnyAsync(p => p.LibroId == id && p.FechaDevolucion == null);
             if (prestamoActivo)
             {
                 return BadRequest("No se puede eliminar el libro porque está prestado actualmente");
             }
-                dbcontext.libros.Remove(libro);
+                dbcontext.Libros.Remove(libro);
             await dbcontext.SaveChangesAsync();
 
-            return NoContent();
+            return Ok(new { mensaje = $"El libro con ID {id} fue eliminado correctamente." });
         }
     }
 }

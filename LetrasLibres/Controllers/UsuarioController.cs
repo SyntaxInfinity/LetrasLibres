@@ -17,13 +17,15 @@ namespace LetrasLibres.Controllers
             this.dbcontext = dbcontext;
         }
 
+        //Lista de usuarios registrados
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Usuario>>> GetUsuarios()
         {
-            var usuarios = await dbcontext.usuarios.ToListAsync();
+            var usuarios = await dbcontext.Usuarios.ToListAsync();
             return Ok(usuarios);
         }
 
+        //Registrar un nuevo usuario.
         [HttpPost]
         public async Task<ActionResult<Usuario>> PostCrearUsuario([FromBody] Usuario usuario)
         {
@@ -33,20 +35,27 @@ namespace LetrasLibres.Controllers
                 return BadRequest("Faltan datos requeridos: nombre, apellido, rut y celular son obligatorios.");
             }
             usuario.Id = Guid.NewGuid();
-            dbcontext.usuarios.Add(usuario);
+            dbcontext.Usuarios.Add(usuario);
             await dbcontext.SaveChangesAsync();
             return CreatedAtAction(nameof(GetUsuarios), new { id = usuario.Id }, usuario);
         }
+
+        //Ver el historial de préstamos del usuario.
         [HttpGet("{id}")]
-        public async Task<ActionResult<Usuario>> GetUsuarioId(Guid id)
+        public async Task<ActionResult<IEnumerable<Prestamo>>> GetHistorialPrestamos(Guid id)
         {
-            var usuario = await dbcontext.usuarios.FindAsync(id);
+            var usuario = await dbcontext.Usuarios
+                .Include(u => u.Prestamo)
+                .FirstOrDefaultAsync(u => u.Id == id);
+
             if (usuario == null)
             {
                 return NotFound();
             }
-            return Ok(usuario);
+
+            return Ok(usuario.Prestamo);
         }
+
     }
 }
 

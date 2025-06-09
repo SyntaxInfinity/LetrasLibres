@@ -208,7 +208,7 @@
   },
   {
     "ContainingType": "LetrasLibres.Controllers.UsuarioController",
-    "Method": "GetUsuarioId",
+    "Method": "GetHistorialPrestamos",
     "RelativePath": "api/Usuario/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -222,7 +222,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "LetrasLibres.Models.Entities.Usuario",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[LetrasLibres.Models.Entities.Prestamo, LetrasLibres, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

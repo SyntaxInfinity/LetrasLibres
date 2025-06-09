@@ -5,13 +5,14 @@ namespace LetrasLibres.Data
 {
     public class BibliotecaDbContext : DbContext
     {
+        //Configuración de DbContext 
         public BibliotecaDbContext(DbContextOptions<BibliotecaDbContext> options) : base(options)
         {
         }
 
-        public DbSet<Libro> libros { get; set; }
-        public DbSet<Prestamo> prestamo { get; set; }
-        public DbSet<Usuario> usuarios { get; set; }
+        public DbSet<Libro> Libros { get; set; }
+        public DbSet<Prestamo> Prestamo { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
 
     }
 }
