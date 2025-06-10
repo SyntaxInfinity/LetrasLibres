@@ -4,6 +4,7 @@ using LetrasLibres.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LetrasLibres.Migrations
 {
     [DbContext(typeof(BibliotecaDbContext))]
-    partial class BibliotecaDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250609233650_SegundaRelacion")]
+    partial class SegundaRelacion
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -58,10 +61,6 @@ namespace LetrasLibres.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("Estado")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<DateTime?>("FechaDevolucion")
                         .HasColumnType("datetime2");
 
@@ -73,6 +72,10 @@ namespace LetrasLibres.Migrations
 
                     b.Property<Guid>("UsuarioId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("estado")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -89,19 +92,19 @@ namespace LetrasLibres.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("Apellido")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Celular")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Nombre")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Rut")
+                    b.Property<string>("apellido")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("celular")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("rut")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -119,7 +122,7 @@ namespace LetrasLibres.Migrations
                         .IsRequired();
 
                     b.HasOne("LetrasLibres.Models.Entities.Usuario", null)
-                        .WithMany("Prestamos")
+                        .WithMany("Prestamo")
                         .HasForeignKey("UsuarioId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -132,7 +135,7 @@ namespace LetrasLibres.Migrations
 
             modelBuilder.Entity("LetrasLibres.Models.Entities.Usuario", b =>
                 {
-                    b.Navigation("Prestamos");
+                    b.Navigation("Prestamo");
                 });
 #pragma warning restore 612, 618
         }

@@ -123,7 +123,7 @@ namespace LetrasLibres.Controllers
             {
                 return NotFound($"No se encontró el libro con el id {id}");
             }
-            var prestamoActivo = await dbcontext.Prestamo.AnyAsync(p => p.LibroId == id && p.FechaDevolucion == null);
+            var prestamoActivo = await dbcontext.Prestamos.AnyAsync(p => p.LibroId == id && p.FechaDevolucion == null);
             if (prestamoActivo)
             {
                 return BadRequest("No se puede eliminar el libro porque está prestado actualmente");

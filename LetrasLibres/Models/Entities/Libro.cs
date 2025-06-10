@@ -11,6 +11,22 @@ namespace LetrasLibres.Models.Entities
         public required string Autor { get; set; } = String.Empty;
         public required string Isbn {  get; set; } = String.Empty;
         public required string Categoria { get; set; } = String.Empty;
+
+        public ICollection<Prestamo> Prestamos { get; set; }
+
+        public Libro()
+        {
+            
+        }
+
+        public Libro(string titulo, DateTime publicacion, string autor, string isbn, string categoria)
+        {
+            Titulo = titulo;
+            Publicacion = publicacion;
+            Autor = autor;
+            Isbn = isbn;
+            Categoria = categoria;
+        }
     }
 
 
